@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Bitcount+Prop+Double+Ink:wght@100..900&display=swap');
+
+:root {
+    --roxo-claro: #caa8f5ff;
+    --roxo-tropical-pobre: #9984d4ff;
+    --roxo-levemente-escuro: #592e83ff;
+    --roxo-escuro: #230c33ff;
+    --titulo: "Bitcount Prop Double Ink", system-ui;
+    --texto: "Alan Sans", sans-serif;
+}
