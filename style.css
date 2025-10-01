@@ -8,3 +8,7 @@
     --titulo: "Bitcount Prop Double Ink", system-ui;
     --texto: "Alan Sans", sans-serif;
 }
+body{
+    background-color: var(--roxo-claro);
+    font-family: var(--texto)
+}
