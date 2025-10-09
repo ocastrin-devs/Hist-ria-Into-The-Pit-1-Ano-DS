@@ -8,7 +8,36 @@
     --titulo: "Bitcount Prop Double Ink", system-ui;
     --texto: "Alan Sans", sans-serif;
 }
-body{
+
+body {
     background-color: var(--roxo-claro);
-    font-family: var(--texto)
+    font-family: var(--texto);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    margin-top: 20px;
+    max-width: 90%;
+    text-align: center;
+}
+
+button {
+    font-family: var(--titulo);
+    background-color: var(--roxo-levemente-escuro);
+    color: var(--roxo-tropical-pobre);
+    border: 2px solid var(--roxo-escuro);
+    padding: 20px 30px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 27%;
+    font-size: 20px;
+}
+button:hover{
+    background-color: var(--roxo-levemente-escuro);
+    color: var(--roxo-escuro);
+    transition: 0.5s;
 }
